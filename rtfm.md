@@ -445,6 +445,10 @@ curl -I http://www.google.com
 ```
 curl -kI https://www.google.com
 ```
+- Query geolocation info about an IP address:
+```
+curl -s "https://api.ip2location.io/?ip=8.8.8.8&format=json"
+```
 - Display info about your public IP:
 ```
 curl ipinfo.io
